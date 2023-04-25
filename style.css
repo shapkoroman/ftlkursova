@@ -1,0 +1,151 @@
+html {
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    text-align: left;
+    background-color: rgb(245, 245, 245);
+    position: fixed;
+    z-index: 999999999;
+}
+
+header img {
+    padding: 20px;
+    margin-left: 7%;
+    cursor: pointer;
+}
+
+.about {
+    float: right;
+    padding-top: 8px;
+    margin-right: 8%;
+    cursor: pointer;
+}
+
+body {
+    padding-top: 0;
+    margin: 0;
+}
+
+div {
+    text-align: center;
+    font-size: 22.5px;
+    padding: 50px;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: rgba(170, 170, 170, 9%);
+    position: relative;
+}
+
+.info-block p {
+    width: 60%;
+    margin-top: 5px;
+    float: left;
+    position: relative;
+}
+
+.info-block img {
+    float: right;
+    position: absolute;
+    right: 10%;
+    vertical-align: middle;
+    min-width: 10%;
+    max-width: 20%;
+}
+
+.how-to-use-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: right;
+    background-color: rgba(170, 170, 170, 9%);
+    position: relative;
+    align-items: flex-end;
+    min-height: 520px;
+}
+
+.how-to-use-block h2 {
+    width: 60%;
+}
+
+.how-to-use-block p {
+    width: 60%;
+    margin-top: 5px;
+    float: right;
+    position: relative;
+}
+
+.how-to-use-block img {
+    min-width: 20%;
+    max-width: 30%;
+    height: auto;
+    float: left;
+    left: 0;
+    position: absolute;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.example-block {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(170, 170, 170, 9%);
+}
+
+.example-block img {
+    min-width: 45%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.5%;
+    margin-right: 0.5%;
+}
+
+main {
+    padding: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+p {
+    display: block;
+    font-size: 22.5px;
+    color: #3d5259;
+}
+
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+table {
+    display: table;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(170, 170, 170, 9%);
+    border-radius: 5px;
+}
+
+li {
+    width: auto;
+    vertical-align: top;
+    font-size: 22.5px;
+    color: #3d5259;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
